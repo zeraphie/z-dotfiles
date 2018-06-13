@@ -1,7 +1,7 @@
 # zDotfiles
 These are a condensed version of my dotfiles for use on a MAC
 
-# System Preferences
+## System Preferences
 
 In my **System Preferences** I've set the following:
 
@@ -13,7 +13,7 @@ In my **System Preferences** I've set the following:
 
 ---
 
-# Oh My Zsh
+## Oh My Zsh
 
 I've used https://github.com/robbyrussell/oh-my-zsh to edit the look of the shell and chosen the `avit` theme.
 
