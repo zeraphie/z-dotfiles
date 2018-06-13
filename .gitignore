@@ -1,0 +1,19 @@
+# Ignore everything in order to whitelist files
+*
+
+# Don't ignore the gitignore file for reuse
+!.gitignore
+
+# Keep the readme for instructions
+!README.md
+
+# Keep the `.bash` directory and all its files
+!.bash
+!.bash/**
+
+# Remove any job specific folders/files
+.bash/mindoktor
+.bash/mindoktor/**
+
+# Keep the `.bashrc` file
+!.bashrc
