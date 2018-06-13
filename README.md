@@ -1,5 +1,7 @@
 # zDotfiles
-These are a condensed version of my dotfiles for use on a MAC
+These are a condensed version of my dotfiles for use on a MAC.
+
+---
 
 ## System Preferences
 
