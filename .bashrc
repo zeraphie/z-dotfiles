@@ -11,10 +11,8 @@ done
 # Get all the aliases
 source ~/.bash/aliases.sh
 
-# Get all the Min Doktor specifics
-for file in ~/.bash/mindoktor/*; do
-    source "$file"
-done
+# Get all the work specifics
+source ~/.bash/work/load.sh
 
 # Get any other custom settings
 if [ -f ~/.bashrc_local ]; then

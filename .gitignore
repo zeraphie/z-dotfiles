@@ -12,8 +12,8 @@
 !.bash/**
 
 # Remove any job specific folders/files
-.bash/mindoktor
-.bash/mindoktor/**
+.bash/work/**
+!.bash/work/load.sh
 
 # Keep the `.bashrc` file
 !.bashrc
