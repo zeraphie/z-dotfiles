@@ -7,12 +7,16 @@ export PATH=$PATH:$ANDROID_SDK/platform-tools
 
 # Get everything in the lib files (dependencies)
 for file in ~/.bash/lib/*; do
-    source "$file"
+    if [[ $file != *"DISABLE"* ]]; then
+        source "$file"
+    fi
 done
 
 # Get everything in the functions directory
 for file in ~/.bash/functions/*; do
-    source "$file"
+    if [[ $file != *"DISABLE"* ]]; then
+        source "$file"
+    fi
 done
 
 # Get all the aliases
