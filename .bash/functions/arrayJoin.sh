@@ -1,0 +1,11 @@
+arrayJoin(){
+    local d=$1
+
+    shift
+
+    echo -n "$1"
+
+    shift
+    
+    printf "%s" "${@/#/$d}"
+}
