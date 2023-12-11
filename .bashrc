@@ -6,26 +6,26 @@ export PATH=$PATH:$ANDROID_NDK
 export PATH=$PATH:$ANDROID_SDK/platform-tools
 
 # Get everything in the lib files (dependencies)
-for file in ~/.bash/lib/*; do
+for file in ~/z-dotfiles/.bash/lib/*; do
     if [[ $file != *"DISABLE"* ]]; then
         source "$file"
     fi
 done
 
 # Get everything in the functions directory
-for file in ~/.bash/functions/*; do
+for file in ~/z-dotfiles/.bash/functions/*; do
     if [[ $file != *"DISABLE"* ]]; then
         source "$file"
     fi
 done
 
 # Get all the aliases
-source ~/.bash/aliases.sh
+source ~/z-dotfiles/.bash/aliases.sh
 
 # Get all the work specifics
-source ~/.bash/work/load.sh
+source ~/z-dotfiles/.bash/work/load.sh
 
 # Get any other custom settings
-if [ -f ~/.bashrc_local ]; then
-    source ~/.bashrc_local
+if [ -f ~/z-dotfiles/.bashrc_local ]; then
+    source ~/z-dotfiles/.bashrc_local
 fi
